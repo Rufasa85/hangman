@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hangman</h1>
+        <button id="start-game">
+            Start game
+        </button>
+    </header>
+    <main>
+        <section>
+            <h2 id="word">Word goes here</h2>
+            <h3 id="time-head">Time Left:<span id="time-left">10</span> seconds!</h3>
+        </section>
+        <section>
+            <h2>Stats</h2>
+            <h3>Wins: <span id="wins">0</span></h3>
+            <h3>Losses: <span id="losses">0</span></h3>
+            <button id="clear">Clear stats</button>
+        </section>
+        <section id="win-section">
+            <h2>WINNER!</h2>
+            <img src = "https://media.istockphoto.com/photos/winning-team-is-holding-trophy-in-hands-silhouettes-of-many-hands-in-picture-id961399110?k=6&m=961399110&s=612x612&w=0&h=7ACf2sp7PS1S5aboygb3dBI6-o24YgFhOJFdJYR0a0E=">
+        </section>
+        <section id="loss-section">
+            <h2>You Lost!</h2>
+            <img src = "https://i.pinimg.com/originals/6d/26/a2/6d26a28e9269843a0103da816b83457f.jpg">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
